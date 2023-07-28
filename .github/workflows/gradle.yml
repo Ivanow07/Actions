@@ -8,10 +8,9 @@
 name: Java CI with Gradle
 
 on:
-  release:
-    branches: [ "ToolBox" ]
-  pull_request:
-    branches: [ "ToolBox" ]
+   push:
+    branches:
+      - ToolBox
 
 permissions:
   contents: read
