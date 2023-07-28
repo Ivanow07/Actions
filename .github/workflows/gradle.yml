@@ -10,7 +10,7 @@ name: Java CI with Gradle
 on:
    push:
     branches:
-      - ToolBox
+      - master
 
 permissions:
   contents: read
